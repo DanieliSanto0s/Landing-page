@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #1f2937;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  padding: 30px;
+  gap: 10%;
+  justify-content: space-evenly;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.navbar ul {
+  display: flex;
+  padding: 10px;
+  list-style-type: none;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+a {
+  color: #e5e7eb;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.conteudoheader {
+  display: flex;
+  padding: 5% 15% 10% 15%;
+  justify-content: space-evenly;
+}
+
+.conteudoheader img {
+  background-color: #474655;
+  width: 500px;
+  height: 250px;
+}
+
+.context {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ 
+}
+
+.context h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.context p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.context a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 5px;
+  width: 20%;
+  text-align: center;
+  background-color: #3882f6;
+}
