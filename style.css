@@ -50,6 +50,7 @@ a {
   background-color: #474655;
   width: 500px;
   height: 250px;
+  border: none;
 }
 
 .context {
@@ -80,4 +81,84 @@ a {
   width: 20%;
   text-align: center;
   background-color: #3882f6;
+}
+
+.main {
+  padding: 5% 15% 10% 15%;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.conteudomain {
+  display: flex;
+  gap: 5%;
+}
+
+ img{
+  width: 200px;
+  height: 200px;
+  border: 3px solid;
+  border-color: #3882f6;
+  border-radius: 10px;
+}
+
+.quadro p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.text-forma {
+  background-color: #e5e7eb;
+  padding: 5%;
+}
+
+.format {
+  padding: 0% 20% 0% 20%;
+}
+
+.format h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.format p {
+  font-size: 18px;
+  color: #1f2937;
+  position: absolute; 
+  right: 25%; 
+  
+}
+
+.signup {
+  background-color: #3882f6;
+  color: white;
+  padding: 5%;
+  border-radius: 15px;
+  margin : 10%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.signup a {
+  border: 2px solid white;
+  padding: 10px 40px;
+  border-radius: 10px;
+
+}
+
+
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
